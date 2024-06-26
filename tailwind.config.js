@@ -5,5 +5,5 @@ export default {
 	theme: {
 		extend: {},
 	},
-	plugins: ["prettier-plugin-tailwindcss"],
+	plugins: ["prettier-plugin-tailwindcss", require('tailwind-scrollbar-hide')],
 };
